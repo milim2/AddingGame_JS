@@ -14,23 +14,6 @@ h1 {
     font-weight: normal;
 }
 
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    background: #fff;
-    height: 40px;
-    line-height: 40px;
-    color: #666;
-}
-
-li:nth-child(2n) {
-    background: #f7f7f7;
-}
-
 span {
     background: #e74c3c;
     height: 40;
@@ -48,6 +31,22 @@ li:hover span {
     opacity: 1.0;
 }
 
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    background: #fff;
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+}
+
+li:nth-child(2n) {
+    background: #f7f7f7;
+}
 
 input {
     font-size: 18px;
